@@ -14,6 +14,8 @@ public class List extends AppCompatActivity implements View.OnClickListener {
     ImageButton buttonChallengeB;
     ImageButton buttonChallengeC;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,10 +25,11 @@ public class List extends AppCompatActivity implements View.OnClickListener {
         buttonChallengeC=(ImageButton)findViewById(R.id.buttonChallengeC);
         buttonChallengeA.setOnClickListener(this);
         buttonChallengeB.setOnClickListener(this);
-        buttonChallengeB.setOnClickListener(this);
+        buttonChallengeC.setOnClickListener(this);
     }
 
-    public void OnClick(View view) {
+
+    public void onClick(View view) {
         switch (view.getId()) {
 
             case R.id.buttonChallengeA:
@@ -40,13 +43,13 @@ public class List extends AppCompatActivity implements View.OnClickListener {
                 break;
 
             case R.id.buttonChallengeC:
-                Intent buttonC = new Intent (List.this, ChallengeC.class);
+                Intent buttonC = new Intent(List.this, ChallengeC.class);
                 List.this.startActivity(buttonC);
                 break;
 
             default:
                 break;
         }
-
     }
-}
+    }
+
