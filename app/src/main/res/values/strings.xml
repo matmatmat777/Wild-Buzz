@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Wild Buzz</string>
+    <string name="profil_ic">Profil</string>
+    <string name="ranking_ic">Classement</string>
 </resources>
