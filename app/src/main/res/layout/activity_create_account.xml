@@ -1,9 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<RelativeLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.apprenti.wildbuzz.CreateAccount">
-
-</android.support.constraint.ConstraintLayout>
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#5AC3AF"
+    tools:context="com.example.apprenti.wildbuzz.CreateAccount"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:id="@+id/group1"
+        android:layout_width="288dp"
+        android:layout_height="360dp"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <RadioButton android:id="@+id/radioButtonLaLoupe"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="#F9A02E"
+            android:text="@string/RadioButtonLaLoupe"/>
+        <RadioButton android:id="@+id/radioButtonToulouse"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/RadioButtonToulouse"/>
+        <RadioButton android:id="@+id/radioButtonBordeaux"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/RadioButtonBordeaux"/>
+        <RadioButton android:id="@+id/radioButtonFontainebleau"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/RadioButtonLyon"/>
+        <RadioButton android:id="@+id/radioButtonLyon"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/RadioButtonFontainebleau"/>
+        <RadioButton android:id="@+id/radioButtonOrlean"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/RadioButtonOrlean"/>
+    </RadioGroup>
+</RelativeLayout>

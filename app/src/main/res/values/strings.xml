@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">WildBuzz</string>
+    <string name="buttonLoginMainActivity">Login</string>
+    <string name="buttonInscriptionMainActivity">INSCRIPTION</string>
+    <string name="signInButtonCreateActivity">Sign in with gmail</string>
+    <string name="textViewChooseSchool">Choisis ton école</string>
+    <string name="RadioButtonLaLoupe">La Loupe</string>
+    <string name="RadioButtonOrlean">Orléan</string>
+    <string name="RadioButtonLyon">Lyon</string>
+    <string name="RadioButtonFontainebleau">Fontainebleau</string>
+    <string name="RadioButtonBordeaux">Bordeaux</string>
+    <string name="RadioButtonToulouse">Toulouse</string>
+    <string name="ChoisiTonEcole">Choisis ton école ...</string>
 </resources>
