@@ -42,11 +42,11 @@
 
     <Button
         android:id="@+id/buttonRegister"
+        android:background="@color/vertWCS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="75dp"
         android:text="@string/buttonRegister"
-        android:background="@color/colorAccent"
         android:layout_above="@+id/textViewSignin"
         android:layout_centerHorizontal="true" />
 

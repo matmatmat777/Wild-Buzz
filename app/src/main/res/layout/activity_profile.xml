@@ -6,6 +6,8 @@
 
     <Button
         android:id="@+id/buttonDisconnect"
+        android:layout_margin="5dp"
+        android:background="@color/vertWCS"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -43,6 +45,8 @@
 
     <Button
         android:id="@+id/buttonMenu"
+        android:layout_margin="5dp"
+        android:background="@color/vertWCS"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/buttonDisconnect"
@@ -52,6 +56,8 @@
 
     <Button
         android:id="@+id/buttonListe"
+        android:layout_margin="5dp"
+        android:background="@color/vertWCS"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/buttonMenu"
