@@ -11,4 +11,16 @@
     <string name="RadioButtonBordeaux">Bordeaux</string>
     <string name="RadioButtonToulouse">Toulouse</string>
     <string name="ChoisiTonEcole">Choisis ton école ...</string>
+    <string name="buttonCompte">Compte</string>
+    <string name="textViewEmailUser">e-mail</string>
+    <string name="EmailUser">e-mail</string>
+    <string name="PasswordUser">Password</string>
+    <string name="buttonRegister">Register</string>
+    <string name="textViewSignIn">Signin</string>
+    <string name="textViewEmailLogin">e-mail</string>
+    <string name="textViewPasswordLogin">Password</string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonInscription">Inscription</string>
+    <string name="buttonMenu">Menu</string>
+    <string name="liste">Liste</string>
 </resources>
