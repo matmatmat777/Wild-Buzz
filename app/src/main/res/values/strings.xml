@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Wild Buzz</string>
+    <string name="profil_ic">Profil</string>
+    <string name="ranking_ic">Classement</string>
+    <string name="textViewEDT">EAT, DRINK, TOGETHER</string>
+    <string name="textViewConviviale">Quelle école sera la plus conviviale ?</string>
+    <string name="textViewDescriptionEDT">Montre que ton école sait se rassembler autour des verres ou des repas pris ensemble. Upload les photos prises à ces occasions pour que ton école soit peut-être la première sur le podium du partage ! 1 photo = 1 point (nécessite un accès à ton appareil photo)</string>
+    <string name="buttonParticipationEDT">Je participe à ce challenge !</string>
+    <string name="textViewDefouloir">Le défi-défouloir</string>
+    <string name="textViewtitle2">Ecole de fléches ou 2 de tension ? </string>
+    <string name="textViewDescriptionDefouloir">De manière aléatoire s\'ouvrira une session d\'une minute durant laquelle tu n\'auras qu\'un objectif : tapoter le plus vite possible sur l\'écran de ton téléphone afin de faire grimper le compteur de points de ton école. Prêt ?</string>
+    <string name="Welcome">Bienvenue sur Wild Buzz</string>
+    <string name="signup">Inscris toi dès maintenant !</string>
+    <string name="signup_email">Ton e-mail</string>
+    <string name="signup_password">Ton mot de passe</string>
+    <string name="validate">Valider</string>
+    <string name="already_registered">Déja inscrit ? C\'est par ici !</string>
+    <string name="buttonLoginMainActivity">Login</string>
+    <string name="buttonInscriptionMainActivity">INSCRIPTION</string>
+    <string name="signInButtonCreateActivity">Sign in with gmail</string>
+    <string name="textViewChooseSchool">Choisis ton école</string>
+    <string name="RadioButtonLaLoupe">La Loupe</string>
+    <string name="RadioButtonOrlean">Orléan</string>
+    <string name="RadioButtonLyon">Lyon</string>
+    <string name="RadioButtonFontainebleau">Fontainebleau</string>
+    <string name="RadioButtonBordeaux">Bordeaux</string>
+    <string name="RadioButtonToulouse">Toulouse</string>
+    <string name="ChoisiTonEcole">Choisis ton école ...</string>
+    <string name="buttonCompte">Compte</string>
+    <string name="textViewEmailUser">e-mail</string>
+    <string name="EmailUser">e-mail</string>
+    <string name="PasswordUser">Password</string>
+    <string name="buttonRegister">Register</string>
+    <string name="textViewSignIn">Signin</string>
+    <string name="textViewEmailLogin">e-mail</string>
+    <string name="textViewPasswordLogin">Password</string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonInscription">Inscription</string>
+    <string name="buttonMenu">Menu</string>
+    <string name="liste">Liste</string>
+    <string name="buttonParticipationWalk">Je participe à ce challenge</string>
+    <string name="textViewDescriptionWalk">Montre que ton école n"'"est pas statique et sait se bouger! En faisant le plus de pas possibles, mets toutes les chances de ton coté pour atteindre les sommets</string>
+    <string name="walk_on_the_wild">WALK ON THE WILD</string>
+    <string name="textViewTitreWalk">Quelle sera l"'"école la plus mobile?</string>
+    <string name="ranking">Classement des écoles</string>
+
+</resources>

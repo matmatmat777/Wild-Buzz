@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context="fr.wcs.wildbuzz.ChallengeA">
+
+
+    <Button
+        android:id="@+id/buttonParticipationEDT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:background="@color/vertWCS"
+        android:padding="10dp"
+        android:text="@string/buttonParticipationEDT" />
+
+    <TextView
+        android:id="@+id/textViewEDT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/textViewEDT"
+        android:textColor="@color/grisWCS"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textViewConviviale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonParticipationEDT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="81dp"
+        android:text="@string/textViewConviviale"
+        android:textColor="@color/grisWCS"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewDescriptionEDT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonParticipationEDT"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:text="@string/textViewDescriptionEDT"
+        android:textColor="@color/grisWCS"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewConviviale"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="4dp"
+        app:srcCompat="@drawable/imageedt" />
+
+</RelativeLayout>

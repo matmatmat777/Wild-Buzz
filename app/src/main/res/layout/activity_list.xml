@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_list"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.wcs.wildbuzz.List">
+
+
+    <ImageButton
+        android:id="@+id/buttonChallengeA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/defouloir"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="70dp"
+        android:layout_marginBottom="34dp"
+        android:layout_above="@+id/bottomNavigation"
+        android:layout_alignStart="@+id/buttonChallengeB" />
+
+    <ImageButton
+        android:id="@+id/buttonChallengeB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/defouloir"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="70dp"
+        android:layout_below="@+id/buttonChallengeC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <ImageButton
+        android:id="@+id/buttonChallengeC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/defouloir"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/buttonChallengeB" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/orangeWCS"
+        app:itemIconTint="@drawable/nav_item_color"
+        app:itemTextColor="@drawable/nav_item_color"
+        app:menu="@menu/bottom_nav"
+         />
+
+
+
+</RelativeLayout>
