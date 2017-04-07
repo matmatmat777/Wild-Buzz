@@ -9,14 +9,15 @@
 
 
     <Button
-        android:id="@+id/buttonParticipationDefouloir"
+        android:id="@+id/buttonParticipationWildPicasso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@color/vertWCS"
         android:padding="10dp"
-        android:text="@string/buttonParticipationEDT" />
+        android:text="@string/buttonParticipationEDT"
+        android:textColor="@android:color/white" />
 
     <TextView
         android:id="@+id/textViewEDT"
@@ -46,7 +47,7 @@
         android:text="@string/textViewDescriptionDefouloir"
         android:textSize="12sp"
         android:textColor="@color/grisWCS"
-        android:layout_above="@+id/buttonParticipationDefouloir"
+        android:layout_above="@+id/buttonParticipationWildPicasso"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="12dp" />
 
@@ -54,9 +55,10 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/defouloir"
         android:layout_above="@+id/textViewDescriptionEDT"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="24dp" />
+        android:layout_margin="30dp"
+        android:layout_marginBottom="24dp"
+        app:srcCompat="@drawable/defouloir" />
 
 </RelativeLayout>

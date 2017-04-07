@@ -18,7 +18,7 @@ public class ChallengeB extends AppCompatActivity {
         buttonParticipationWalk.setOnClickListener(new View.OnClickListener() {
             //intent bidon vers profile
             public void onClick(View v) {
-                Intent goLogin = new Intent(ChallengeB.this, Profil.class);
+                Intent goLogin = new Intent(ChallengeB.this, ChallengeBSecondePage.class);
                 startActivity(goLogin);
             }
         });

@@ -11,16 +11,16 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="94dp"
-        android:text="@string/textViewEmailLogin" />
+        android:text="@string/signup_email" />
 
     <TextView
         android:id="@+id/textViewPasswordLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/textViewPasswordLogin"
         android:layout_above="@+id/editTextPasswordLogin"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="22dp" />
+        android:layout_marginBottom="22dp"
+        android:text="@string/signup_password" />
 
     <EditText
         android:id="@+id/editTextPasswordLogin"
@@ -46,20 +46,23 @@
         android:id="@+id/buttonLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/buttonLogin"
-        android:layout_marginBottom="88dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/editTextPasswordLogin"
-        android:layout_alignStart="@+id/editTextPasswordLogin" />
+        android:layout_below="@+id/editTextPasswordLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@color/vertWCS"
+        android:text="@string/validate"
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/buttonInscription"
-        android:background="@color/colorAccent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewPasswordLogin"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@color/orangeWCS"
+        android:padding="10dp"
         android:text="@string/buttonInscription"
-        android:layout_alignTop="@+id/buttonLogin"
-        android:layout_toRightOf="@+id/textViewPasswordLogin"
-        android:layout_toEndOf="@+id/textViewPasswordLogin" />
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>

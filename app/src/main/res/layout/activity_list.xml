@@ -16,33 +16,38 @@
         android:id="@+id/buttonChallengeA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonChallengeB"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/vertWCS"
+        android:elevation="12dp"
         android:src="@drawable/defouloir"
         tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="70dp"
-        android:layout_marginBottom="34dp"
-        android:layout_above="@+id/bottomNavigation"
-        android:layout_alignStart="@+id/buttonChallengeB" />
+        tools:layout_editor_absoluteY="70dp" />
 
     <ImageButton
         android:id="@+id/buttonChallengeB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/defouloir"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="70dp"
         android:layout_below="@+id/buttonChallengeC"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp" />
+        android:backgroundTint="@color/vertWCS"
+        android:elevation="12dp"
+        android:src="@drawable/defouloir"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="70dp" />
 
     <ImageButton
         android:id="@+id/buttonChallengeC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/buttonChallengeB"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/vertWCS"
+        android:elevation="12dp"
         android:src="@drawable/defouloir"
         tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="70dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/buttonChallengeB" />
+        tools:layout_editor_absoluteY="70dp" />
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottomNavigation"
