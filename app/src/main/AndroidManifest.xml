@@ -25,7 +25,8 @@
         <activity android:name=".ChallengeC" />
         <activity android:name=".SchoolRating" />
         <activity android:name=".Profile" />
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ChallengeBSecondePage"></activity>
     </application>
 
 </manifest>
