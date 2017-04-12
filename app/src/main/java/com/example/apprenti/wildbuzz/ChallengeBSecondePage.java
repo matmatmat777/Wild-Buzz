@@ -9,23 +9,34 @@ import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class ChallengeBSecondePage extends AppCompatActivity implements SensorEventListener {
     TextView textViewSteps;
-
+    TextView textViewCount;
     SensorManager sensorManager;
 
     boolean running = false;
 
+    StepsCounter mStepsCounter;
+    private DatabaseReference mDatabase;
+    FirebaseAuth firebaseAuth;
+    FirebaseUser mFirebaseUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_challenge_bseconde_page);
 
-        textViewSteps = (TextView)findViewById(R.id.textViewSteps);
+        textViewCount = (TextView)findViewById(R.id.textViewCount);
 
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        mDatabase = FirebaseDatabase.getInstance().getReference("steps");
 
+        mStepsCounter = new StepsCounter(0);
     }
 
     @Override
@@ -50,7 +61,12 @@ public class ChallengeBSecondePage extends AppCompatActivity implements SensorEv
     @Override
     public void onSensorChanged(SensorEvent event) {
         if (running){
-            textViewSteps.setText(String.valueOf(event.values[0]));
+            textViewCount.setText(String.valueOf(event.values[0]));
+
+            mStepsCounter.steps += event.values[0];
+            if (mStepsCounter.steps>= 25){
+                mDatabase.child("steps").setValue(mStepsCounter.steps);
+            }
         }
     }
 
