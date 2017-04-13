@@ -52,6 +52,7 @@
     <string name="back">Retour</string>
     <string name="tolist">Commencer les défis</string>
     <string name="disconnect">Me déconnecter</string>
+    <string name="title_activity_asupprimer">Asupprimer</string>
 
 
 </resources>

@@ -3,4 +3,5 @@
 <resources>
     <dimen name="small_brush">10dp</dimen>
     <integer name="small_size">10</integer>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>

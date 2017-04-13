@@ -2,8 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fr.wcs.wildbuzz">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <uses-feature
         android:name="android.hardware.Camera"
         android:required="true" />
@@ -34,7 +35,12 @@
         <activity android:name=".DrawingMainActivity" />
         <activity android:name=".ChallengeAplay" />
         <activity android:name=".ChallengeBSecondePage" />
-        <activity android:name=".DrawReceiver"></activity>
+        <activity android:name=".DrawReceiver" />
+        <activity
+            android:name=".Asupprimer"
+            android:label="@string/title_activity_asupprimer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".git"></activity>
     </application>
 
 </manifest>
