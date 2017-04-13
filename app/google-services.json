@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "565566535573",
+    "firebase_url": "https://wild-wild-buzz-e5df4.firebaseio.com",
+    "project_id": "wild-wild-buzz-e5df4",
+    "storage_bucket": "wild-wild-buzz-e5df4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565566535573:android:c7f4e8ee3a37dae0",
+        "android_client_info": {
+          "package_name": "fr.wcs.wildbuzz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565566535573-0rnvtgv13qdg2tugkt4t9972g3gjopkk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.wcs.wildbuzz",
+            "certificate_hash": "020f7cd25e0b7fcd712b292ab9536be2e2342994"
+          }
+        },
+        {
+          "client_id": "565566535573-q3arvortpn7buaalkb8402arg7c95f8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmIfv_DTLzWjrcjMIei1mpvej0ltmbE-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565566535573-q3arvortpn7buaalkb8402arg7c95f8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
