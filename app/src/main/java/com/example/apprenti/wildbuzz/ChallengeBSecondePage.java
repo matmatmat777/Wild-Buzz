@@ -23,20 +23,33 @@ public class ChallengeBSecondePage extends AppCompatActivity implements SensorEv
 
     StepsCounter mStepsCounter;
     private DatabaseReference mDatabase;
-    FirebaseAuth firebaseAuth;
-    FirebaseUser mFirebaseUser;
+
+
+    private FirebaseAuth mAuth;
+    private String displayName;
+    private String idUser;
+    private String uploadId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_challenge_bseconde_page);
 
+
+
+
         textViewCount = (TextView)findViewById(R.id.textViewCount);
 
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-        mDatabase = FirebaseDatabase.getInstance().getReference("steps");
+        mDatabase = FirebaseDatabase.getInstance().getReference("Steps");
 
         mStepsCounter = new StepsCounter(0);
+        mAuth = FirebaseAuth.getInstance();
+        FirebaseUser user = mAuth.getCurrentUser();
+        displayName = FirebaseAuth.getInstance().getCurrentUser().getDisplayName();
+        idUser = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        uploadId = mDatabase.push().getKey();
+
     }
 
     @Override
@@ -64,9 +77,8 @@ public class ChallengeBSecondePage extends AppCompatActivity implements SensorEv
             textViewCount.setText(String.valueOf(event.values[0]));
 
             mStepsCounter.steps += event.values[0];
-            if (mStepsCounter.steps>= 25){
-                mDatabase.child("steps").setValue(mStepsCounter.steps);
-            }
+
+            mDatabase.child("walk").child(displayName).child(uploadId).setValue(mStepsCounter.steps);
         }
     }
 
