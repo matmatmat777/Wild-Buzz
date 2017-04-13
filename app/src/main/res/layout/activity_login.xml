@@ -11,16 +11,27 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="94dp"
+<<<<<<< HEAD
         android:text="@string/signup_email" />
+=======
+        android:text="@string/textViewEmailLogin" />
+>>>>>>> c5f45c680b0ab0906f542b3c20a27ebd4d421d92
 
     <TextView
         android:id="@+id/textViewPasswordLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_above="@+id/editTextPasswordLogin"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
         android:text="@string/signup_password" />
+=======
+        android:text="@string/textViewPasswordLogin"
+        android:layout_above="@+id/editTextPasswordLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp" />
+>>>>>>> c5f45c680b0ab0906f542b3c20a27ebd4d421d92
 
     <EditText
         android:id="@+id/editTextPasswordLogin"
@@ -46,6 +57,7 @@
         android:id="@+id/buttonLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_below="@+id/editTextPasswordLogin"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"
@@ -64,5 +76,22 @@
         android:padding="10dp"
         android:text="@string/buttonInscription"
         android:textColor="@android:color/white" />
+=======
+        android:text="@string/buttonLogin"
+        android:layout_marginBottom="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/editTextPasswordLogin"
+        android:layout_alignStart="@+id/editTextPasswordLogin" />
+
+    <Button
+        android:id="@+id/buttonInscription"
+        android:background="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonInscription"
+        android:layout_alignTop="@+id/buttonLogin"
+        android:layout_toRightOf="@+id/textViewPasswordLogin"
+        android:layout_toEndOf="@+id/textViewPasswordLogin" />
+>>>>>>> c5f45c680b0ab0906f542b3c20a27ebd4d421d92
 
 </RelativeLayout>

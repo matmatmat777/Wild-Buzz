@@ -1,20 +1,34 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "565566535573",
     "firebase_url": "https://wild-wild-buzz-e5df4.firebaseio.com",
     "project_id": "wild-wild-buzz-e5df4",
     "storage_bucket": "wild-wild-buzz-e5df4.appspot.com"
+=======
+    "project_number": "679573381323",
+    "firebase_url": "https://wildbuzz-6c65d.firebaseio.com",
+    "project_id": "wildbuzz-6c65d",
+    "storage_bucket": "wildbuzz-6c65d.appspot.com"
+>>>>>>> c5f45c680b0ab0906f542b3c20a27ebd4d421d92
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:565566535573:android:c7f4e8ee3a37dae0",
         "android_client_info": {
           "package_name": "fr.wcs.wildbuzz"
+=======
+        "mobilesdk_app_id": "1:679573381323:android:e1d25cffeb5d9fe5",
+        "android_client_info": {
+          "package_name": "com.example.apprenti.wildbuzz"
+>>>>>>> c5f45c680b0ab0906f542b3c20a27ebd4d421d92
         }
       },
       "oauth_client": [
         {
+<<<<<<< HEAD
           "client_id": "565566535573-0rnvtgv13qdg2tugkt4t9972g3gjopkk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -24,12 +38,27 @@
         },
         {
           "client_id": "565566535573-q3arvortpn7buaalkb8402arg7c95f8h.apps.googleusercontent.com",
+=======
+          "client_id": "679573381323-2srg61gneff452p0kb9ml64k2i22sug1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apprenti.wildbuzz",
+            "certificate_hash": "b982bd1ea3510baf0fdf84e868478d729f3a5cbe"
+          }
+        },
+        {
+          "client_id": "679573381323-27k72l1vir84tln65eqi6sl7d0bfipap.apps.googleusercontent.com",
+>>>>>>> c5f45c680b0ab0906f542b3c20a27ebd4d421d92
           "client_type": 3
         }
       ],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyAmIfv_DTLzWjrcjMIei1mpvej0ltmbE-U"
+=======
+          "current_key": "AIzaSyBXgdz5j5JSzLos6cWexspm-4rmEqgVAqg"
+>>>>>>> c5f45c680b0ab0906f542b3c20a27ebd4d421d92
         }
       ],
       "services": {
@@ -40,7 +69,11 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
+<<<<<<< HEAD
               "client_id": "565566535573-q3arvortpn7buaalkb8402arg7c95f8h.apps.googleusercontent.com",
+=======
+              "client_id": "679573381323-27k72l1vir84tln65eqi6sl7d0bfipap.apps.googleusercontent.com",
+>>>>>>> c5f45c680b0ab0906f542b3c20a27ebd4d421d92
               "client_type": 3
             }
           ]
