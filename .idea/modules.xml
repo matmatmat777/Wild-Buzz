@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Omar.iml" filepath="$PROJECT_DIR$/Omar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WB-Master.iml" filepath="$PROJECT_DIR$/WB-Master.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wild-Buzz-contrib_omar.iml" filepath="$PROJECT_DIR$/Wild-Buzz-contrib_omar.iml" />
       <module fileurl="file://$PROJECT_DIR$/WildBuzz3.iml" filepath="$PROJECT_DIR$/WildBuzz3.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />

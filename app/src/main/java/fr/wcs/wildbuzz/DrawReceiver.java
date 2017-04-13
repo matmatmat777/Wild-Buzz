@@ -50,7 +50,7 @@ public class DrawReceiver extends AppCompatActivity implements View.OnClickListe
         mImageResult.setImageBitmap(BitmapFactory.decodeFile(path));
 
         mButtonUpload.setOnClickListener(this);
-
+        //git
     }
 
 
