@@ -18,7 +18,6 @@ public class ChallengeBSecondePage extends AppCompatActivity implements SensorEv
     TextView textViewSteps;
     TextView textViewCount;
     SensorManager sensorManager;
-
     boolean running = false;
 
     StepsCounter mStepsCounter;
@@ -41,14 +40,14 @@ public class ChallengeBSecondePage extends AppCompatActivity implements SensorEv
         textViewCount = (TextView)findViewById(R.id.textViewCount);
 
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-        mDatabase = FirebaseDatabase.getInstance().getReference("Steps");
+        mDatabase = FirebaseDatabase.getInstance().getReference("Steps/" +"walk/" + displayName + idUser);
 
         mStepsCounter = new StepsCounter(0);
         mAuth = FirebaseAuth.getInstance();
         FirebaseUser user = mAuth.getCurrentUser();
         displayName = FirebaseAuth.getInstance().getCurrentUser().getDisplayName();
         idUser = FirebaseAuth.getInstance().getCurrentUser().getUid();
-        uploadId = mDatabase.push().getKey();
+        uploadId = mDatabase.getKey();
 
     }
 
@@ -86,4 +85,5 @@ public class ChallengeBSecondePage extends AppCompatActivity implements SensorEv
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
     }
+
 }
